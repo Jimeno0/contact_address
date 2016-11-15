@@ -1,0 +1,15 @@
+<h1><%= @selected_contact.name %></h1>
+
+<ul>
+  <li>
+    <strong>Address:</strong> <%= @selected_contact.address %>
+  </li>
+  <li>
+    <strong>Phone:</strong> <%= @selected_contact.phone_number %>
+  </li>
+  <li>
+    <strong>Email:</strong> <%= @selected_contact.email %>
+  </li>
+</ul>
+
+<%= link_to "home", "/contacts" %>
